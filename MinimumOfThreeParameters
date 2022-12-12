@@ -1,0 +1,36 @@
+/*
+// Write a function definition for a function named minThree which 
+// returns the minimum of the three parameters. Here's the function prototype:
+
+/// int minThree(int, int, int);
+*/
+
+
+int minThree(int, int, int);
+
+
+int minThree(int first, int second, int third) {
+    
+    int minimum = first;
+
+    if (second < first) {
+        minimum = second;
+    }
+    if (third < first) {
+        minimum = third;
+    }
+
+    return minimum;
+
+}
+
+
+
+
+int main()
+{
+
+    cout << "The minimum of these three numbers is: " << minThree(105, 106, 104);
+ 
+    return 0;
+} 
