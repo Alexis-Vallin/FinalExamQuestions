@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+
+/*
+// Write some code that defines a structure then declares an array of 10 of those structures.
+
+// Call the structure movingShip and define it to have these members: x, y, prevX, prevY (all doubles).
+
+// Then define an array called allShips that has 10 elements of the movingShip type
+*/
+
+
+struct movingShip {
+    double x;
+    double y;
+    double prevX;
+    double prevY;
+};
+
+
+int main()
+{
+    movingShip allShips[10];
+
+    return 0;
+} 
