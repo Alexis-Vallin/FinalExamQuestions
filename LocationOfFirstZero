@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+
+/*
+
+Write some code that searches an array called str[ ] to determine the location of the first zero. 
+
+(In other words, this counts the length of a C-string).
+
+Assume these variables have been defined, and store the index of the first zero in firstZeroLocation
+
+char str[] = "Biola";
+int firstZeroLocation=0;
+
+*/
+
+int main()
+{
+	char str[] = "Biola";
+	int firstZeroLocation = 0;
+
+	int count = 0;
+
+
+	//while (str[count] != '\0') {
+
+	//	if (str[count] == '\0') {
+	//		firstZeroLocation == count;
+	//	}
+
+	//	count++;
+	//}
+
+	//cout << firstZeroLocation;
+
+
+	
+	for (int i = 0; i < 6; i++) {
+		cout << str[i] << endl;
+		if (str[i] == '\0') {
+			firstZeroLocation = i;
+		}
+	}
+	cout << firstZeroLocation;
+} 
