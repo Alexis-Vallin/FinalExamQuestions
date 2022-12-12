@@ -1,0 +1,35 @@
+
+/*
+Write some code that searches an array called array[ ] and counts how many elements are negative numbers.
+
+Assume these variables have been defined, and store the number of negatives in numNegatives
+
+int array[100];
+int count=0;
+
+(Don't need the whole program, just the part that counts negative elements.)
+
+*/
+
+
+
+
+int main()
+{
+
+
+    int array[100];
+    int count = 0;
+    int numNegatives = 0;
+
+    for (count; count < 100; count++) {
+
+        if (array[count] < 0) {
+            numNegatives++;
+        }
+
+     }
+    
+    cout << "The amount of negatives in the array: " << numNegatives;
+
+} 
